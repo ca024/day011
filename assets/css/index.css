@@ -1,0 +1,53 @@
+body {
+  padding: 50px 400px;
+}
+
+main,
+main h1 {
+  background-color: antiquewhite;
+}
+main,
+img {
+  border: 10px solid whitesmoke;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgb(50, 50, 50, 0.5);
+}
+
+main {
+  padding: 100px 50px 50px;
+}
+
+main p,
+#todays-challenge,
+img,
+span {
+  background-color: antiquewhite;
+  color: rgb(247, 171, 7);
+}
+
+img {
+  width: 16%;
+  margin-bottom: -120px;
+  padding: 20px 30px;
+  border-radius: 50px;
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 25px;
+  color: rgb(190, 109, 2);
+}
+
+span {
+  color: rgb(192, 123, 32);
+}
+
+#todays-challenge {
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+#todays-challenge:hover {
+  /* Transform the element by scaling the size*/
+  transform: scale(1.1, 1.1);
+}

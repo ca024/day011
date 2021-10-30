@@ -1,8 +1,10 @@
-# Hello, World!
-### Creating my first HTML page
+# My Challenge 7.0!
+### A List of All CSS Selectors
 
-![Hello, world!](https://github.com/ca024/images/blob/main/day001/hello_world.JPG)
+![My challenge!](https://github.com/ca024/images/blob/main/day008/carlou_challenge7_1.JPG)
+![My challenge!](https://github.com/ca024/images/blob/main/day008/carlou_challenge7_2.JPG)
+
 ---
 
 **GitHub Pages Link**
-> https://ca024.github.io/day001/
+> https://ca024.github.io/day008/

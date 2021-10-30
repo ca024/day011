@@ -1,19 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Ubuntu:wght@400;700&display=swap");
 
-
+/* This selector selects ALL HTML elements
+(directly, not through inheritance but as if
+you would target them all individually)*/
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Zen Kurenaido', sans-serif;
-    background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  background-color: rgb(0, 85, 85);
 }
 
+body {
+  /* Set top,bottom and left,right padding */
+  padding: 100px 200px;
+  /* Center the texts horizontally */
+  text-align: center;
+}
 
 h1 {
-    /* Center div or element */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* End of noted code */
+  color: tomato;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: blanchedalmond;
+  /* Add top and bottom margin */
+  margin: 25px 0;
+  /* End of noted code */
+}
+
+a {
+  color: aquamarine;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  /*Invert the colors of anchor element when hovered*/
+  filter: invert(1);
 }

@@ -1,0 +1,55 @@
+/* Styling for full-week.html */
+h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+a {
+  background-color: rgb(10, 29, 29);
+  padding: 3px 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* Remove numbers/bullets of ul/ol if it's displaying */
+p {
+  margin: 0;
+}
+ol {
+  width: 1000px;
+  margin: 50px auto;
+}
+li {
+  list-style: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: antiquewhite;
+  padding: 10px 0;
+  box-shadow: 5px 5px 5px rgb(50, 50, 50, 0.5);
+}
+/* End of noted code*/
+
+li h2,
+li p {
+  background-color: antiquewhite;
+  font-size: large;
+  color: rgb(190, 109, 2);
+  line-height: 40px;
+
+  /* Display the numbers/bullets of ul/ol */
+  /* display: list-item;
+  list-style-position: inside; */
+  /* End of noted code*/
+}
+
+li h2 {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+ol li:hover {
+  /* Transform the element by scaling the size*/
+  transform: scale(1.1, 1.1);
+  filter: brightness(1.1);
+}
+
+/* End of code for full-week.html */
