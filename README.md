@@ -6,7 +6,7 @@
 ---
 
 **GitHub Pages Link**
-> https://ca024.github.io/day008/
+> https://ca024.github.io/day011/
 
 **Netlify Link**
 > https://romantic-johnson-a05faf.netlify.app/full-week.html
